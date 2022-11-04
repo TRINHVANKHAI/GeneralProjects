@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../inc/common.h
+
+/home/hinoeng/workspace/Eclipse/uartloop/src/main.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+errno.h
+-
+fcntl.h
+-
+unistd.h
+-
+pthread.h
+-
+sched.h
+-
+signal.h
+-
+termios.h
+-
+sys/types.h
+-
+sys/stat.h
+-
+sys/ioctl.h
+-
+common.h
+/home/hinoeng/workspace/Eclipse/uartloop/src/common.h
+
