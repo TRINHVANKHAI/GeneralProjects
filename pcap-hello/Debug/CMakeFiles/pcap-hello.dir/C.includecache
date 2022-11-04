@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/hinoeng/workspace/Eclipse/pcap-hello/src/main.c
+stdlib.h
+-
+stdio.h
+-
+pcap.h
+-
+errno.h
+-
+sys/socket.h
+-
+netinet/in.h
+-
+arpa/inet.h
+-
+netinet/if_ether.h
+-
+
